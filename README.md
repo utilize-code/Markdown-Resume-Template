@@ -5,42 +5,42 @@
 ## 个人信息 
 
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：24  
-* 手 机：13357810972 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;    邮 箱：1162239341@qq.com    
+* 手 机：13357810972 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    邮 箱：1162239341@qq.com    
 * 专 业：通信工程 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 岗 位：软件开发工程师
 
 ## 工作及教育经历
        
-* 南京理工大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 通信工程-研究生         
+* 南京理工大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 通信工程-研究生         
 * 南京信息工程大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2021.7&emsp;&emsp;&emsp;&emsp; 电子信息工程-本科  
 
 ## 专业技能
 
 * 熟练使用 java，掌握python，了解 C++,PHP 等编程语言
-* 掌握基础数据结构和算法的基本原理
-* 等等
+* 熟悉JVM的垃圾回收和内存管理机制。
+* 熟练使用MySQL，熟悉MySQL索引。
+* 熟悉Redis数据类型使用场景和内部实现，熟悉持久化和过期淘汰策略，熟悉缓存高并发场景。
+* 熟练使用Spring Boot、Spring、Mybatis等常用框架。
+* 熟悉基本数据结构与算法，如链表、二叉树。
+* 熟悉计算机基础，如计算机网络。
 
 ## 项目经历
 
-1. 公司/学校 - XXweb服务器 - 独立开发 - 201508- 201512 
-    * 具体功能 
-    * 运用了那些技术，技术难点是
-    * 效果如何
-    * demo演示地址，github地址 
+1. 校园兼职论坛 - 独立开发 - 202303- 202304
+    * 本项目主要涉及模块有权限模块、核心模块、性能模块、通知模块、搜素模块和其他模块。
+    * 技术选型：SpringBoot+MySQL+Redis +Kafka+Elasticsearch
+    * 1.登录注册功能：使用kaptcha去生成验证码，使用邮件完成注册，Redis优化验证码的保存，解决分布式session问题，使用拦截器拦截用户请求，将用户信息绑定在ThreadLocal上
+    * 2.构建Trie数据结构，实现对发表帖子评论的敏感词过滤
+    * 3.利用AJAX支持对帖子评论，也支持对评论进行回复
+    * 4.利用AOP对service的业务代码实现日志记录
+    * 5.利用Redis的zset并结合Redis实现点赞关注的功能
+    * 6.点赞关注后的系统通知，实时性要求不高，使用kafka实现异步的发送系统通知
+    * 7.使用ElasticSearch实现对帖子的搜索功能，以及结果的高亮显示
 
-2. 公司/学校 - XX游戏 - 负责后端开发 - 201309- 201401 
-    * 具体功能 
-    * 运用了那些技术，技术难点是
-    * 效果如何
-    * demo演示地址，github地址 
 
 ## 获奖经历
 * XXX 优秀新人
 * XXX 学生社团优秀干部
 * 竞赛 XXX 奖
-
-## 个人账号 
-* blog 地址 (附加自己博客特色，写了哪些技术文章)
-* github 地址 (附加自己github特色，突出的项目)
 
 ## 其他信息 
 * 喜欢钻研技术 等等
