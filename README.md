@@ -10,7 +10,7 @@
 
 ## 工作及教育经历
        
-* 南京理工大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 通信工程-研究生         
+* 南京理工大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021.9~至今&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 通信工程-研究生         
 * 南京信息工程大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2021.7&emsp;&emsp;&emsp;&emsp; 电子信息工程-本科  
 
 ## 专业技能
@@ -28,13 +28,13 @@
 1. 校园兼职论坛 - 独立开发 - 202303- 202304
     * 本项目主要涉及模块有权限模块、核心模块、性能模块、通知模块、搜素模块和其他模块。
     * 技术选型：SpringBoot+MySQL+Redis +Kafka+Elasticsearch
-    * 1.登录注册功能：使用kaptcha去生成验证码，使用邮件完成注册，Redis优化验证码的保存，解决分布式session问题，使用拦截器拦截用户请求，将用户信息绑定在ThreadLocal上
-    * 2.构建Trie数据结构，实现对发表帖子评论的敏感词过滤
-    * 3.利用AJAX支持对帖子评论，也支持对评论进行回复
-    * 4.利用AOP对service的业务代码实现日志记录
-    * 5.利用Redis的zset并结合Redis实现点赞关注的功能
-    * 6.点赞关注后的系统通知，实时性要求不高，使用kafka实现异步的发送系统通知
-    * 7.使用ElasticSearch实现对帖子的搜索功能，以及结果的高亮显示
+    * 登录注册功能：使用kaptcha去生成验证码，使用邮件完成注册，Redis优化验证码的保存，解决分布式session问题，使用拦截器拦截用户请求，将用户信息绑定在ThreadLocal上
+    * 构建Trie数据结构，实现对发表帖子评论的敏感词过滤
+    * 利用AJAX支持对帖子评论，也支持对评论进行回复
+    * 利用AOP对service的业务代码实现日志记录
+    * 利用Redis的zset并结合Redis实现点赞关注的功能
+    * 点赞关注后的系统通知，实时性要求不高，使用kafka实现异步的发送系统通知
+    * 使用ElasticSearch实现对帖子的搜索功能，以及结果的高亮显示
 
 
 ## 获奖经历
