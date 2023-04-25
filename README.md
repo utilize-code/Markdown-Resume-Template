@@ -17,7 +17,6 @@
 
 * 熟练使用 java，掌握python，了解 C++,PHP 等编程语言；
 * 熟悉网络编程和多线程编程，对TCP/IP，HTTP等网络协议有一定的理解，并了解XML和HTML语言；
-* 熟悉JVM的垃圾回收和内存管理机制；
 * 熟练使用MySQL，熟悉MySQL索引；
 * 熟悉Redis数据类型使用场景和内部实现，熟悉持久化和过期淘汰策略，熟悉缓存高并发场景；
 * 熟练使用Spring Boot、Spring、Mybatis等常用框架；
