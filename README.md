@@ -11,7 +11,7 @@
 ## 工作及教育经历
        
 * 南京理工大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021.9~至今&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 通信工程-研究生         
-* 南京信息工程大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2021.7&emsp;&emsp;&emsp;&emsp; 电子信息工程-本科  
+* 南京信息工程大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2021.6&emsp;&emsp;&emsp;&emsp; 电子信息工程-本科  
 
 ## 专业技能
 
