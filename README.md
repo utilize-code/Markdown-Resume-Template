@@ -27,19 +27,20 @@
 
 1. 校园兼职论坛 - 独立开发 - 202301 - 202302
     * 技术选型：SpringBoot + MySQL + Redis + Kafka + Elasticsearch + Spring Security；
-    * 使用Redis存储登录ticket和验证码，解决分布式session问题；
-    * 构建Trie数据结构，实现对发表帖子评论的敏感词过滤；
-    * 使用Redis的set实现点赞，zset实现关注，HyperLogLog统计UV，Bitmap统计DAU；
-    * 使用kafka实现点赞关注后的异步系统通知和帖子、评论数据异步上传到ES服务器；
-    * 使用Elasticsearch对帖子搜索功能进行重构，通过IK中文分词器增加增量索引和全局索引，实现搜索关键词高亮显示等功能；
-    * 使用Spring Security用于管理项目中的登录权限；
-    * 技术难点之一：热帖排行模块，使用Redis缓存score值，并使用Quartz定时更新热帖排行榜。
+    * 使用Redis存储登录 ticket 和验证码，解决分布式 session 问题；
+    * 构建 Trie 数据结构，实现对发表帖子评论的敏感词过滤；
+    * 使用 Redis 的 set 实现点赞，zset 实现关注，HyperLogLog 统计UV，Bitmap 统计DAU；
+    * 使用 kafka 实现点赞关注后的异步系统通知和帖子、评论数据异步上传到ES服务器；
+    * 使用 Elasticsearch 对帖子搜索功能进行重构，通过IK中文分词器增加增量索引和全局索引，实现搜索关键词高亮显示等功能；
+    * 使用 Spring Security 用于管理项目中的登录权限；
+    * 技术难点之一：热帖排行模块，使用 Redis 缓存 score 值，并使用 Quartz 定时更新热帖排行榜。
 2. 校园点评 - 独立开发 - 202302 - 202304
     * 功能：实现了发布并查看商家，探店，点赞，关注等功能，业务可以帮助商家从校园引流，增加曝光度，也可以为用户提供查看附近促销活动的消费场所；
     * 包括登录模块、查询商户模块、优惠券秒杀模块、博客模块、签到模块和订阅模块。
-    * 技术选型：SpringBoot + MySql + Lombok + MyBatis-Plus + Hutool + Redis；
-    * 商户查询使用redis缓存,并解决缓存穿透、缓存击穿和缓存雪崩问题。
-    * 加锁解决优惠券超卖问题、redis分布式锁实现集群环境下一人一单。
+    * 技术选型：SpringBoot + MySql + MyBatis-Plus + RabbitMQ + Redis；
+    * 商户查询使用 redis 缓存,并解决缓存穿透、缓存击穿和缓存雪崩问题；
+    * 用 Redis 缓存和 MySQL 锁联合解决优惠券超卖问题、redis 分布式锁实现集群环境下一人一单；
+    * 将每一条秒杀的请求存入消息队列 RabbitMQ 中，将收到的下订单请求一个个的写入数据库中，大大缓解了数据库的连接压力。
 
 
 ## 获奖经历
