@@ -26,14 +26,13 @@
 ## 项目经历
 
 1. 校园兼职论坛 - 独立开发 - 202301 - 202302
-    * 技术选型：SpringBoot + MySQL + Redis + Kafka + Elasticsearch + Spring Security + Caffeine；
+    * 技术选型：SpringBoot + MySQL + Redis + Kafka + Elasticsearch + Spring Security；
     * 使用Redis存储登录ticket和验证码，解决分布式session问题；
     * 构建Trie数据结构，实现对发表帖子评论的敏感词过滤；
     * 使用Redis的set实现点赞，zset实现关注，HyperLogLog统计UV，Bitmap统计DAU；
     * 使用kafka实现点赞关注后的异步系统通知和帖子、评论数据异步上传到ES服务器；
     * 使用Elasticsearch对帖子搜索功能进行重构，通过IK中文分词器增加增量索引和全局索引，实现搜索关键词高亮显示等功能；
     * 使用Spring Security用于管理项目中的登录权限；
-    * 使用Caffeine本地缓存，将数据存到应用服务器本地，提高网站性能；
     * 技术难点之一：热帖排行模块，使用Redis缓存score值，并使用Quartz定时更新热帖排行榜。
 2. 校园点评 - 独立开发 - 202302 - 202304
     * 功能：实现了发布并查看商家，探店，点赞，关注等功能，业务可以帮助商家从校园引流，增加曝光度，也可以为用户提供查看附近促销活动的消费场所；
